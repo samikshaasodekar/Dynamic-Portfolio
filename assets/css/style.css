@@ -216,11 +216,11 @@ section {
   font-weight: 600;
 }
 
-.section__text__p1 {
+.section_text_p1 {
   text-align: center;
 }
 
-.section__text__p2 {
+.section_text_p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
 }
@@ -326,12 +326,14 @@ a .btn {
 }
 
 .text-container {
-  margin: 30px 0;
+  margin-top: 100px;
   font-size: 1.25em;
   line-height: 1.6em;
 }
 
 .text-container h2 {
+  align-items: center;
+  justify-content: center;
   font-size: 3rem;
   padding: 1.5rem 1rem;
 }
@@ -344,7 +346,7 @@ a .btn {
 
 /* Skills Wrapper */
 .skills-wrapper {
-  margin-top: 10px;
+  margin-top: 160px;
 }
 
 .skills-wrapper h3 {
@@ -355,9 +357,10 @@ a .btn {
 /* Technical Skills */
 .technical-skills {
   display: flex;
+  justify-content: center;
+  margin-right: 100px;
   flex-wrap: wrap; 
   gap: 15px;
-  align-items: center;
 }
 
 .skill-icon img {
@@ -376,7 +379,7 @@ a .btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-bottom: 130px;
 }
 
 .image-container img {
@@ -446,6 +449,8 @@ a .btn {
 
 #experience {
   padding: 40px 40px;
+  margin-top: 50px;
+  height: 100px;
   background-color: #d7dfe6;
 }
 
@@ -459,6 +464,7 @@ a .btn {
 .timeline-container {
   position: relative;
   display: flex;
+  height: 300px;
   flex-direction: column;
   align-items: flex-start;
   gap: 1rem; 
@@ -516,7 +522,7 @@ a .btn {
 }
 
 .scroll-container {
-  height: 1700px; 
+  height: 400px; 
   overflow-y: scroll; 
   padding-right: 10px; 
 }
@@ -623,6 +629,7 @@ a .btn {
 
 #certificates {
   padding: 1rem 1rem; 
+  height: 250px;
   background-color: #d7dfe6;
   margin-top: 10rem; 
 }
@@ -630,7 +637,8 @@ a .btn {
 .certificate-container {
   background-color: #ffffff;
   padding: 1rem;            
-  border-radius: 8px;      
+  border-radius: 8px;  
+  height: 200px;    
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-top: 1rem;        
   margin-bottom: 2rem; 
@@ -721,7 +729,7 @@ a .btn {
 /* CONTACT */
 
 #contact {
-  margin-top: 210px;
+  margin-top: 0px;
   padding: 100px 100px;
   display: flex;
   justify-content: center;
@@ -904,7 +912,7 @@ footer p {
       justify-content: center;
     }
 
-    .section__text__p2 {
+    .section_text_p2 {
       font-size: 1.25rem;
     }
   
@@ -931,5 +939,3 @@ footer p {
     }
   
   }
-
-
